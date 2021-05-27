@@ -1,4 +1,5 @@
 import flask
+from PIL import Image
 # import json
 # import os
 # # from PIL import Image
