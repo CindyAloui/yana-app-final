@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'app-yana-final'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_1957402f91ae46588c025f1487bf69f7 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_0b085c6457684ffb94283414ce115a31 }}
