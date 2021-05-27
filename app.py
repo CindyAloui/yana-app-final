@@ -10,8 +10,8 @@ from functionsLabels import *
 from azureml.core import Workspace,Dataset,Datastore
 import tensorflow
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
-from segmentation_models.metrics import IOUScore
-from segmentation_models.losses import JaccardLoss
+# from segmentation_models.metrics import IOUScore
+# from segmentation_models.losses import JaccardLoss
 
 # Initializing flask app
 app = flask.Flask(__name__)
