@@ -15,9 +15,9 @@ import flask
 
 # Initializing flask app
 app = flask.Flask(__name__)
-app.secret_key = SECRET_KEY
+# app.secret_key = SECRET_KEY
 
-from flask import Flask, request,render_template,flash,make_response
+# from flask import Flask, request,render_template,flash,make_response
 # Adding cors to flask
 #CORS(app)
 
