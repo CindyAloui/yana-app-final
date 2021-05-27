@@ -11,3 +11,4 @@ Keras
 Keras-Applications
 Keras-Preprocessing
 colormap
+easydev
