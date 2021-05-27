@@ -12,3 +12,4 @@ Keras-Applications
 Keras-Preprocessing
 colormap
 easydev
+pandas
