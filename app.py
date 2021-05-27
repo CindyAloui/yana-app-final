@@ -19,7 +19,7 @@ app.secret_key = SECRET_KEY
 
 from flask import Flask, request,render_template,flash,make_response
 # Adding cors to flask
-CORS(app)
+#CORS(app)
 
 # Controller-1
 @app.route("/", methods=['GET'])
