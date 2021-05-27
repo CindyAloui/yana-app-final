@@ -10,3 +10,4 @@ tensorflow
 Keras
 Keras-Applications
 Keras-Preprocessing
+colormap
