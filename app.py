@@ -1,18 +1,17 @@
 import flask
 from PIL import Image
-# import json
-# import os
-# # from PIL import Image
-# import base64
-# import io
-# from colormap import rgb2hex
-# from config import *
-# from functionsLabels import *
-# from azureml.core import Workspace,Dataset,Datastore
-# import tensorflow
-# from tensorflow.keras.preprocessing.image import load_img, img_to_array
-#from segmentation_models.metrics import IOUScore
-#from segmentation_models.losses import JaccardLoss
+import json
+import os
+import base64
+import io
+from colormap import rgb2hex
+from config import *
+from functionsLabels import *
+from azureml.core import Workspace,Dataset,Datastore
+import tensorflow
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
+from segmentation_models.metrics import IOUScore
+from segmentation_models.losses import JaccardLoss
 
 # Initializing flask app
 app = flask.Flask(__name__)
