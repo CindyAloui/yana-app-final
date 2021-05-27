@@ -1,1 +1,8 @@
-
+numpy
+azure-core
+azureml-automl-core
+azureml-core
+azureml-sdk
+Flask
+Jinja2
+Pillow
